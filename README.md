@@ -1,2 +1,2 @@
 # spam-classifier
-![Alt text](relative/path/to/img.jpg?raw=true "Title")
+![Alt text](spamoutput.PNG?raw=true "Title")
