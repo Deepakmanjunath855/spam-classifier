@@ -32,7 +32,7 @@ for i in range(0, len(messages)):
     
 # Creating the Bag of Words model
 from sklearn.feature_extraction.text import CountVectorizer
-cv = CountVectorizer(max_features=2500)
+cv = CountVectorizer(max_features=5000)
 X = cv.fit_transform(corpus).toarray()
 
 y=pd.get_dummies(messages['label'])
